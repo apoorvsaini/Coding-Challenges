@@ -4,3 +4,5 @@ Few of the coding problems I have encountered while interviewing for/on
 * Twitter
 * Fidessa
 * Barclays
+* PayTM
+* Grofers
