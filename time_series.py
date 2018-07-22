@@ -5,7 +5,6 @@ import re
 import os
 
 
-
 def aggregator(data_list):
     for line in data_list:
         event_date = line.split(',')[0].strip()
@@ -29,7 +28,6 @@ def aggregator(data_list):
 
     for key in aggregate_list:
         print key+"".join(", "+str(key)+", "+str(value) for key, value in sorted(aggregate_dict[key].items()))
-
 
 
 main_data = []
